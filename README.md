@@ -22,17 +22,26 @@ Being intrigued with FizzBuzz, I  wrote the following variations to "FizzBuzz":
 ## FizzBuzzV1
 See [FizzBuzzV1](https://github.com/DelroyGayle/FizzBuzzV1) for further details.
 
-
 ## FizzBuzzV2 i.e. FizzBuzzPrimes
+See [FizzBuzzPrimes](https://github.com/DelroyGayle/fizzbuzzprimes2) for further details.
 
-FizzBuzzPrimes is a React program which displays 100 buttons representing the range 1 to 100.\
+## FizzBuzzV3 i.e. FizzBuzzPrimes2
+
+FizzBuzzPrimes2 is a React program which displays 100 buttons representing\
+the odd numbers from 3 to 201.\
 Cyan buttons labelled "FizzBuzz" are shown for numbers that are multiples of 3 and 5\
 i.e. multiples of 15
 
 Orange buttons labelled 'Fizz' are shown for numbers that are multiples of 3\
-Yellow buttons labelled 'Buzz' are shown for numbers that are multiples of 5\
+Yellow buttons labelled 'Buzz' are shown for numbers that are multiples of 5
 
 However odd prime numbers are given randomly coloured buttons with a random word ending with two identical letters
+
+If a number has a multiple of prime factors e.g. such as 93 = (3 x 31)\
+Then two words, Fizz (because it a multiple of 3) and the word attached to 31 are displayed together
+
+In like manner a number such as 105 (3 X 5 X 7) has two words displayed together:\
+FizzBuzz (because it a multiple of 15) and the word attached to 7 
 
 ## References
 
@@ -51,11 +60,5 @@ Please enjoy them.
 [Ten Essays on Fizz Buzz](https://fizzbuzzbook.com)
 Meditations on Python, mathematics, science, engineering, and design
 
-# Here are a couple of outputs from FizzBuzzPrimes
-
-![image](https://user-images.githubusercontent.com/91061592/196045261-d9225105-b465-4951-bee0-7a5d7e2b34f9.png)
-
-#
-
-![image](https://user-images.githubusercontent.com/91061592/196045283-35611c06-912d-447c-858f-4a087ab8bb88.png)
+# Here is a sample output of this program
 
