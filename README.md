@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Having Fun with Fizz Buzz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I came across this apparently common JavaScript interview puzzle regarding "FizzBuzz"
 
-## Available Scripts
+[FizzBuzz: One Simple Interview Question](https://www.youtube.com/watch?v=QPZ0pIK_wsc)
 
-In the project directory, you can run:
+FizzBuzz is a game whereby two people count up in turn 1, 2, 3, 4, 5, ... saying the numbers.\
+When one reaches a multiple of three, one says "Fizz" instead of the number;\
+and when one reaches a multiple of five, one says "Buzz" instead of the number.\
+Moreover, when it is a multiple of both i.e. 15, one says "FizzBuzz"
 
-### `npm start`
+A gentleman by the name of [Imran Ghory](https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) proposed that anyone going for a job in computer programming should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> **write a program that outputs the correct words according to "FizzBuzz" for the numbers 1 to 100.**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This generated some interesting results and essays - see the references for more information.
 
-### `npm test`
+In my estimation, I managed to write a solution.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Being intrigued with FizzBuzz, I  wrote the following variations to "FizzBuzz":
 
-### `npm run build`
+## FizzBuzzV1
+See [FizzBuzzV1](https://github.com/DelroyGayle/FizzBuzzV1) for further details.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## FizzBuzzV2 i.e. FizzBuzzPrimes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+FizzBuzzPrimes is a React program which displays 100 buttons representing the range 1 to 100.\
+Cyan buttons labelled "FizzBuzz" are shown for numbers that are multiples of 3 and 5\
+i.e. multiples of 15
 
-### `npm run eject`
+Orange buttons labelled 'Fizz' are shown for numbers that are multiples of 3\
+Yellow buttons labelled 'Buzz' are shown for numbers that are multiples of 5\
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+However odd prime numbers are given randomly coloured buttons with a random word ending with two identical letters
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## References
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+[Using FizzBuzz to Find Developers who Grok Coding - January 24, 2007](https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+[Don't Overthink FizzBuzz - January 24, 2007](http://weblog.raganwald.com/2007/01/dont-overthink-fizzbuzz.html)
 
-## Learn More
+[Why Can't Programmers.. Program? - 26 Feb 2007](https://blog.codinghorror.com/why-cant-programmers-program/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[FizzBuzz: the Programmer's Stairway to Heaven - 27 Feb 2007](https://blog.codinghorror.com/fizzbuzz-the-programmers-stairway-to-heaven/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[10 Python solutions](https://github.com/joelgrus/fizzbuzz) from Joel Grus' book
+[Ten Essays on Fizz Buzz](https://fizzbuzzbook.com).
+Please enjoy them.
 
-### Code Splitting
+[Ten Essays on Fizz Buzz](https://fizzbuzzbook.com)
+Meditations on Python, mathematics, science, engineering, and design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Here are a couple of outputs from FizzBuzzPrimes
 
-### Analyzing the Bundle Size
+![image](https://user-images.githubusercontent.com/91061592/196045261-d9225105-b465-4951-bee0-7a5d7e2b34f9.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#
 
-### Making a Progressive Web App
+![image](https://user-images.githubusercontent.com/91061592/196045283-35611c06-912d-447c-858f-4a087ab8bb88.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

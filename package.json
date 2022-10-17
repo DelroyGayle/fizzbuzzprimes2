@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.3.4",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +35,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Display odd numbers 3-199 as coloured buttons attaching new words to primes numbers - based on the game FizzBuzz",
+  "main": "index.js",
+  "keywords": [
+    "fizz",
+    "buzz",
+    "fizzbuzz",
+    "prime",
+    "primes"
+  ],
+  "author": "Delroy Gayle",
+  "license": "ISC"
 }
