@@ -62,3 +62,4 @@ Meditations on Python, mathematics, science, engineering, and design
 
 # Here is a sample output of this program
 
+![image](https://user-images.githubusercontent.com/91061592/196302572-073a423d-f395-4b1c-9fa7-c192cb9264f2.png)
