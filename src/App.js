@@ -41,14 +41,20 @@ const sieveEratosthenes = (numsArr, limit = 201) => {
     .filter((element) => element); // remove unfiltered
 };
 
+/* Split button text number:text INTO <span>number</span><span>text</span> 
+   in order to display as two lines */
 function Output({ result }) {
   return (
     <div className="flexbox-container">
       {result.map((element, index) => {
         const { text: buttonText, colour: buttonColour } = element;
+        let splits = buttonText.split(":");
         return (
           <div key={index} className={`button-6 flexbox-item ${buttonColour}`}>
-            <div>{buttonText}</div>
+            <div>
+              <span>{splits[0]}</span>
+              <span>{splits[1]}</span>
+            </div>
           </div>
         );
       })}
